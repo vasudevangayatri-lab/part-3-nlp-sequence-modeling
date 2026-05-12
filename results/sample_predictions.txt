@@ -1,0 +1,47 @@
+---------------------------------------------------
+4. Model 1 — Logistic Regression with TF-IDF
+---------------------------------------------------
+
+# Train Logistic Regression
+# Predictions
+---------------------------
+
+MODEL 1 — Logistic Regression + TF-IDF
+==================================================
+  Test Accuracy      : 100.00%
+  Macro F1-Score     : 1.0000
+
+  Per-Class Report:
+              precision    recall  f1-score   support
+
+    negative     1.0000    1.0000    1.0000        99
+     neutral     1.0000    1.0000    1.0000       105
+    positive     1.0000    1.0000    1.0000        96
+
+    accuracy                         1.0000       300
+   macro avg     1.0000    1.0000    1.0000       300
+weighted avg     1.0000    1.0000    1.0000       300
+
+-------------------------------------------------------
+5. Model 2 — Multinomial Naive Bayes with Bag of Words
+-------------------------------------------------------
+
+# Train Naive Bayes
+# Predictions
+---------------------
+
+MODEL 2 — Multinomial Naive Bayes + Bag of Words
+==================================================
+  Test Accuracy      : 100.00%
+  Macro F1-Score     : 1.0000
+
+  Per-Class Report:
+              precision    recall  f1-score   support
+
+    negative     1.0000    1.0000    1.0000        99
+     neutral     1.0000    1.0000    1.0000       105
+    positive     1.0000    1.0000    1.0000        96
+
+    accuracy                         1.0000       300
+   macro avg     1.0000    1.0000    1.0000       300
+weighted avg     1.0000    1.0000    1.0000       300
