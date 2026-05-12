@@ -1,0 +1,115 @@
+Part 3: NLP and Sequence Modeling Mini Project
+
+Problem Statement
+
+You are given a text-based dataset. Your task is to build a basic NLP pipeline and compare traditional text vectorization with sequence-based deep learning ideas.
+The goal of this part is to understand how text is converted into numerical form and why sequence modeling is important for NLP tasks.
+
+Dataset
+Use the relevant Part 3 dataset from the shared folder:
+https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing
+
+Tasks
+Task 1: Dataset Understanding
+Load and analyze the text dataset.
+Include:
+•	Number of records
+•	Target labels/classes
+•	Sample text records
+•	Average text length
+•	Class distribution
+
+Task 2: Text Preprocessing
+Clean the text data.
+Your preprocessing should include:
+•	Lowercasing
+•	Removing unnecessary symbols or special characters
+•	Tokenization
+•	Removing stopwords, if required
+•	Padding or truncating sequences, if using sequence models
+
+Task 3: Text Vectorization
+Convert text into numerical format using at least one of the following:
+•	Bag of Words
+•	TF-IDF
+•	Word embeddings
+•	Tokenizer-based sequences
+Explain why text must be converted into vectors before being used by a model.
+
+Task 4: Baseline Model
+Build a simple baseline model using any suitable approach.
+Examples:
+•	Logistic Regression with TF-IDF
+•	Naive Bayes with Bag of Words
+•	Simple dense neural network with vectorized input
+Evaluate the model using appropriate metrics.
+
+Task 5: Sequence Model or Conceptual Architecture
+Build a simple sequence model using one of the following:
+•	RNN
+•	LSTM
+•	GRU
+
+If full model training is not feasible, create a clear architecture design and explain how the model would process the input sequence.
+
+Your explanation should include:
+•	Input sequence
+•	Embedding layer
+•	Recurrent/sequence layer
+•	Output layer
+•	Loss function
+•	Evaluation metric
+
+Task 6: Attention and Transformer Reflection
+Write a short explanation covering:
+•	Why RNNs struggle with long-term dependencies
+•	How LSTMs help with memory
+•	What attention solves in sequence-to-sequence tasks
+•	Why transformers are important in modern NLP and Generative AI
+
+Expected Repository Contents
+part-3-nlp-sequence-modeling/
+│
+├── README.md
+├── notebook.ipynb
+├── requirements.txt
+└── results/
+    ├── model_evaluation.png or .csv
+    └── sample_predictions.txt
+
+Submission for Part 3
+Submit only the public GitHub repository link for Part 3 in the Part 3 submission field.
+<Public GitHub Repository Link>
+
+-----------------------------------------------------------------------------------------------
+ 
+Data Set:
+# Synthetic Dataset Pack for Applied Neural Networks, CNN, NLP, and AI Solution Design Project
+This dataset pack contains independent datasets for each project part.
+## Folder Structure
+```text
+ai_project_synthetic_datasets/
+├── part_1_neural_network_analysis/
+│   ├── customer_churn_nn.csv
+│   └── data_dictionary.md
+├── part_2_cnn_computer_vision/
+│   ├── images/
+│   │   ├── normal/
+│   │   ├── scratch/
+│   │   ├── dent/
+│   │   └── stain/
+│   ├── labels.csv
+│   └── data_dictionary.md
+├── part_3_nlp_sequence_modeling/
+│   ├── customer_support_text_classification.csv
+│   └── data_dictionary.md
+└── part_4_ai_solution_design/
+    ├── ai_usecase_reference_catalog.csv
+    ├── business_kpi_sample.csv
+    └── data_dictionary.md
+```
+## Notes for Students
+- Each part is independent.
+- Do not upload the full dataset to GitHub unless instructed.
+- Mention the dataset source link in your README.
+- Use the relevant folder for the project part you are attempting.
